@@ -31,8 +31,8 @@ class PowerPointAgent(BasicAgent):
     """
     
     def __init__(self):
-        self.name = 'PowerPoint'
-        self.metadata = {
+        self.  name = 'PowerPoint'
+        self.metadata1 = {
             "name": self.name,
             "description": "Creates professional PowerPoint presentations with extensive customization options.",
             "parameters": {
