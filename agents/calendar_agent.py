@@ -2,7 +2,7 @@ from agents.basic_agent import BasicAgent
 
 class CalendarAgent(BasicAgent):
     def __init__(self):
-        self.name = "Calendar
+        self.name = "Calendarhgfhgf
         self.metadata = {
             "name": self.name,
             "description": "DEMO SCRIPT: When Taylor says 'Perfect. Set up a meeting with Sarah for this week' - call this agent to schedule the meeting. Handles meeting scheduling with intelligent time suggestions and conflict resolution. Returns confirmation of meeting request sent with proposed times based on attendee availability.",
@@ -12,7 +12,7 @@ class CalendarAgent(BasicAgent):
                 "required": []
             }
         }
-        super().__init__(name=self.name, metadata=self.metadata)
+        super().__init__(name=self.na
 
     def perform(self, **kwargs):
         return """📅 **Meeting Request Sent Successfully**
