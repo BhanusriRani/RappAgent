@@ -45,7 +45,7 @@ class DuckDuckGoSearchAgent(BasicAgent):
         super().__init__(name=self.name, metadata=self.metadata)
 
     def perform(self, **kwargs):
-        action =
+        action = kwargs.get('action')
         
         if action == "search":
             query = kwargs.get('query')
