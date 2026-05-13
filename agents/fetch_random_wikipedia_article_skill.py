@@ -3,7 +3,7 @@ from agents.basic_agent import BasicAgent
 import requests
 import json
 
-class FetchRandomWikipediaArticleSkill(BasicSkill):
+class FetchRandomWikipediaArticleSkill(BasicAgent):
     def __init__(self):
         self.name = "FetchRandomWikipediaArticle"
         self.metadata = {
