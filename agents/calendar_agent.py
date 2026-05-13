@@ -12,8 +12,7 @@ class CalendarAgent(BasicAgent):
                 "required": []
             }
         }
-        super().__init__(name=self.na
-
+        super().__init__(name=self.name, metadata=self.metadata)
     def perform(self, **kwargs):
         return """📅 **Meeting Request Sent Successfully**
 
