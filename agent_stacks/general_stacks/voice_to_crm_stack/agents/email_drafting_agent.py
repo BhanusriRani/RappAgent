@@ -50,7 +50,7 @@ class EmailDraftingAgent(BasicAgent):
                 "required": ["subject", "to", "body"]
             }
         }
-        super().__init__(name=self.name, metadata=self.metadata)
+        super().__init__(name=self.namen
 
         # Get Power Automate URL from environment variable
         self.power_automate_url = os.environ.get(
