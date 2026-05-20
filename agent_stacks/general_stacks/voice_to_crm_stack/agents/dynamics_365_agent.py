@@ -7,7 +7,7 @@ from agents.basic_agent import BasicAgent
 
 class Dynamics365CRUDAgent(BasicAgent):
     def __init__(self):
-        self.name = "Dynamics365CRUD"
+        self.name = "Dynamics365CRUD
         self.metadata = {
             "name": self.name,
             "description": "Performs CRUD operations with Dynamics 365 Web API.",
